@@ -1519,10 +1519,8 @@ button {
 #trai-nghiem-360 .video-wrap {
     max-width: 100%;
     width: 100vw;
-    margin-left: calc(-50vw + 50%);
     border-radius: 0;
     box-shadow: none;
-    height: 1000px;
 }
 
 #trai-nghiem-360 .video-thumb {
@@ -2027,8 +2025,9 @@ button {
 }
 
 .footer-logo {
-    height: 60px;
-    margin-bottom: 14px;
+    height: 160px;
+    display: block;
+    margin: 0 auto 14px;
 }
 
 .footer-tagline {
@@ -2411,9 +2410,7 @@ button {
         max-height: 260px;
     }
 
-    #trai-nghiem-360 .video-wrap {
-        height: 300px;
-    }
+
 }
 
 /* ---- 360 VIEWER RESPONSIVE HEIGHT ---- */
